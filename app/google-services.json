@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "452415479484",
+    "project_id": "fir-myamplifyapp2",
+    "storage_bucket": "fir-myamplifyapp2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452415479484:android:7b8bb9e3da38396db9fab9",
+        "android_client_info": {
+          "package_name": "com.aaa.myamplifyapp2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCF9ibiH0sa7Feu41zVSNo32Ok-As8QivE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452415479484:android:3e558aa89e535542b9fab9",
+        "android_client_info": {
+          "package_name": "com.aaa.myamplifyapp3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCF9ibiH0sa7Feu41zVSNo32Ok-As8QivE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452415479484:android:269cbddd44695620b9fab9",
+        "android_client_info": {
+          "package_name": "com.aaa.testpinpoint20240142"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCF9ibiH0sa7Feu41zVSNo32Ok-As8QivE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452415479484:android:ecac1131a098bb42b9fab9",
+        "android_client_info": {
+          "package_name": "jp.co.MitsubishiElectric.MyMu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCF9ibiH0sa7Feu41zVSNo32Ok-As8QivE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

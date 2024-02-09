@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyAmplifyApp3</string>
+    <string name="msg_token_fmt">FCM Registration Token: %1$s</string>
+</resources>
