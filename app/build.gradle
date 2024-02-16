@@ -38,7 +38,8 @@ android {
 
 dependencies {
 
-    implementation 'androidx.core:core-ktx:1.12.0'
+    implementation 'androidx.core:core-ktx:1.9.0'
+//    implementation 'androidx.core:core-ktx:1.12.0'
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.11.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
@@ -47,15 +48,34 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
     // Amplify core dependency
-    implementation 'com.amplifyframework:core:2.14.6'
+//    implementation 'com.amplifyframework:core:2.14.6'
     // Support for Java 8 features
-    coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.0.4'
+//    coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.0.4'
     // Add these lines in `dependencies`
-    implementation 'com.amplifyframework:aws-analytics-pinpoint:2.14.6'
-    implementation 'com.amplifyframework:aws-auth-cognito:2.14.6'
-    implementation 'com.amplifyframework:aws-push-notifications-pinpoint:2.14.6'
+//    implementation 'com.amplifyframework:aws-analytics-pinpoint:2.14.6'
+//    implementation 'com.amplifyframework:aws-auth-cognito:2.14.6'
+//    implementation 'com.amplifyframework:aws-push-notifications-pinpoint:2.14.6'
+//    implementation 'com.amplifyframework:aws-api:2.14.6'
+//    implementation 'com.amplifyframework:aws-datastore:2.14.6'
     // Firebase
     implementation platform('com.google.firebase:firebase-bom:32.7.1')
     implementation 'com.google.firebase:firebase-analytics'
     implementation 'com.google.firebase:firebase-messaging'
+
+    // amplifyframeworkを使用しない方法の調査
+//    implementation 'com.amazonaws:aws-android-sdk-core:2.72.0'
+//    implementation 'com.amazonaws:aws-android-sdk-apigateway-core:2.72.0'
+//    implementation 'com.amazonaws:aws-android-sdk-s3:2.72.0'
+//    implementation 'com.amazonaws:aws-android-sdk-auth-core:2.72.0'
+//    implementation 'com.amazonaws:aws-android-sdk-auth-ui:2.72.0'
+//    implementation 'com.amazonaws:aws-android-sdk-auth-userpools:2.72.0'
+//    implementation 'com.amazonaws:aws-android-sdk-cognitoidentityprovider:2.72.0'
+//    implementation 'com.amazonaws:aws-android-sdk-mobile-client:2.72.0'
+    // PinpointManager
+    implementation 'com.amazonaws:aws-android-sdk-pinpoint:2.51.0'
+    implementation('com.amazonaws:aws-android-sdk-mobile-client:2.72.0@aar') { transitive = true }
+//    implementation 'com.amazonaws:aws-android-sdk-pinpoint:2.13.+'
+//    implementation('com.amazonaws:aws-android-sdk-mobile-client:2.13.+@aar') { transitive = true }
+
+
 }

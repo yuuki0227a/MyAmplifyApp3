@@ -49,6 +49,7 @@ class AuthorityRequestActivity : AppCompatActivity() {
                 // 通知
                 Manifest.permission.POST_NOTIFICATIONS,
                 Manifest.permission.FOREGROUND_SERVICE,
+                Manifest.permission.ACCESS_NETWORK_STATE,
             )
         )
     }
